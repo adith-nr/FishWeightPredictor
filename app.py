@@ -20,7 +20,7 @@ def predict():
         
         print(data['features'])
         
-        # features_transformed = ct.transform([data['features']])
+       
         features_transformed=np.array([data['features']])
         features_transformed[:, 7:] = sc.transform(features_transformed[:, 7:])
         features_poly = poly_reg.fit_transform(features_transformed)
