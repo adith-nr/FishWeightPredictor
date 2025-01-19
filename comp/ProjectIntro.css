@@ -1,0 +1,24 @@
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5rem;
+    margin: 2rem auto;
+    max-width: 900px;
+   
+    
+}
+#title{
+    text-align: center;
+}
+#intro{
+    max-width: 800px;
+}
+#desc{
+    max-width: 800px;
+}
+
+  
+

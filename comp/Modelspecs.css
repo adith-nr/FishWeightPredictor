@@ -1,0 +1,12 @@
+.model{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    padding-left: 5rem;
+    max-width: 900px;
+}
+#metric{
+    padding-left: 1rem;
+}
+

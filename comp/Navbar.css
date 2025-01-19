@@ -1,0 +1,43 @@
+*{
+    text-decoration: none;
+   
+    
+}
+.navbar{
+    background-color: rgb(229, 109, 109);
+    position: fixed; 
+    top: 0;
+    max-width: 900px;
+    /* display: flex;
+    border-radius: 0.1rem;
+    max-width: 900px;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 0.2;
+    border-top-right-radius: 0.2; */
+}
+#nav{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+   gap: .5rem;
+    max-width: 600px;
+    height: 4rem;
+    margin: 0 auto;
+   
+   
+    
+    list-style: none;
+}
+a{
+    color: white;
+    font-size: 1.4rem;
+}
+a:hover{
+    background-color: rgb(231, 59, 59);
+    padding: 0.5rem;
+    color: black;
+}
